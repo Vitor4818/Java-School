@@ -9,6 +9,22 @@ public class Professor extends Pessoa{
 
     @Override
     public void exibirInformacoes() {
-        System.out.println();
+        System.out.println("Nome: "+ getNome()+"\nRegistro: "+getRegistro());
+    }
+
+    public int getDisciplinas() {
+        return disciplinas;
+    }
+
+    public void setDisciplinas(int disciplinas) {
+        this.disciplinas = disciplinas;
+    }
+
+    public String getRegistro() {
+        return registro;
+    }
+
+    public void setRegistro(String registro) {
+        this.registro = registro;
     }
 }
