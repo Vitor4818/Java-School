@@ -12,9 +12,9 @@ public class Aluno extends Pessoa{
     public void exibirInformacoes() {
         System.out.println("Nome do aluno: "+getNome() +"\nMatricula: "+ getMatricula()+"\nCurso: "+getCurso());
 
-
-
     }
+
+
 
     public String getMatricula() {
             return matricula;
