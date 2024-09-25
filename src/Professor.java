@@ -6,6 +6,9 @@ public class Professor extends Pessoa{
         super(nome, email, cpf);
     }
 
+    public void darNota(Aluno aluno, double nota){
+        aluno.setNota(nota);
+    }
 
     @Override
     public void exibirInformacoes() {

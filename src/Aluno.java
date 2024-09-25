@@ -1,6 +1,7 @@
 public class Aluno extends Pessoa{
     String matricula;
     String curso;
+    double nota;
 
     public Aluno(String nome, String email, String cpf) {
         super(nome, email, cpf);
@@ -31,7 +32,11 @@ public class Aluno extends Pessoa{
             this.curso = curso;
         }
 
+    public double getNota() {
+        return nota;
+    }
 
-
-
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
 }
